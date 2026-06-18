@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viajes Increíbles - Inicio</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Barra de navegación -->
+    <nav class="navbar">
+        <div class="logo">
+            <span class="logo-icon">✈️</span>
+            <span>Viajes Increíbles</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Inicio</a></li>
+            <li><a href="nosotros.html">Nosotros</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+        </ul>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Buscar destinos...">
+            <button class="search-btn" onclick="performSearch()">Buscar</button>
+            <button class="clear-btn" onclick="clearSearch()">Limpiar</button>
+        </div>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Sección de introducción -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Descubre los Mejores Destinos del Mundo</h1>
+            <p>Explora playas paradisíacas, templos ancestrales y destinos únicos que cambiarán tu perspectiva.</p>
+            <a href="#recomendaciones" class="cta-button">Explorar Destinos</a>
+        </div>
+    </section>
+
+    <!-- Puntos clave -->
+    <section class="highlight-points">
+        <div class="point">
+            <span class="point-icon">🌊</span>
+            <h3>Playas Paradisíacas</h3>
+            <p>Relájate en las aguas cristalinas de las mejores costas del mundo.</p>
+        </div>
+        <div class="point">
+            <span class="point-icon">🏯</span>
+            <h3>Templos Ancestrales</h3>
+            <p>Descubre la historia y la espiritualidad de templos milenarios.</p>
+        </div>
+        <div class="point">
+            <span class="point-icon">🌍</span>
+            <h3>Cultura Global</h3>
+            <p>Sumérgete en las tradiciones y culturas de diferentes países.</p>
+        </div>
+        <div class="point">
+            <span class="point-icon">🎒</span>
+            <h3>Aventura Garantizada</h3>
+            <p>Vive experiencias inolvidables que enriquecerán tu vida.</p>
+        </div>
+    </section>
+
+    <!-- Sección de recomendaciones -->
+    <section id="recomendaciones" class="recommendations">
+        <h2>Nuestras Recomendaciones</h2>
+        
+        <div class="recommendation-card playa">
+            <h3>🏖️ Playa del Carmen, México</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/17060218/pexels-photo-17060218/free-photo-of-beauty-sandy-beach.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Playa del Carmen - Vista aérea">
+                    <div class="image-overlay">
+                        <p>Vista Aérea</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/36587649/pexels-photo-36587649/free-photo-of-tranquil-caribbean-beach-at-sunrise.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Playa del Carmen - Atardecer">
+                    <div class="image-overlay">
+                        <p>Atardecer Mágico</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Playa del Carmen ofrece aguas cristalinas, arena blanca y una vibrante vida nocturna. Ideal para relajarse y divertirse.</p>
+        </div>
+
+        <div class="recommendation-card templo">
+            <h3>🏯 Templo de Angkor Wat, Camboya</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/15890568/pexels-photo-15890568/free-photo-of-ancient-buddhist-temple-building.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Angkor Wat - Vista exterior">
+                    <div class="image-overlay">
+                        <p>Vista Exterior</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/15890571/pexels-photo-15890571/free-photo-of-temple-angkor-wat-view-from-the-lake.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Angkor Wat - Interior">
+                    <div class="image-overlay">
+                        <p>Interior Sagrado</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">El templo más grande del mundo, un testimonio de la ingeniería y la espiritualidad del imperio Khmer.</p>
+        </div>
+
+        <div class="recommendation-card pais">
+            <h3>🌏 Santorini, Grecia</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/28000940/pexels-photo-28000940/free-photo-of-a-white-building-with-blue-roof-and-water-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Santorini - Casas blancas">
+                    <div class="image-overlay">
+                        <p>Casas Blancas</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/10611225/pexels-photo-10611225.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Santorini - Caldera">
+                    <div class="image-overlay">
+                        <p>Vista de la Caldera</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Famosa por sus casas blancas con cúpulas azules, puestas de sol impresionantes y vistas panorámicas al mar Egeo.</p>
+        </div>
+        <div class="recommendation-card playa">
+            <h3>🏖️ Bali, Indonesia</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/2166559/pexels-photo-2166559.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Bali - Templo Uluwatu">
+                    <div class="image-overlay">
+                        <p>Templo Uluwatu</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/247376/pexels-photo-247376.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Bali - Arrozales">
+                    <div class="image-overlay">
+                        <p>Arrozales de Ubud</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Bali es conocida como la Isla de los Dioses. Ofrece playas paradisíacas, templos ancestrales y terrazas de arroz impresionantes. Ideal para relajación y aventura espiritual.</p>
+        </div>
+
+        <div class="recommendation-card playa">
+            <h3>🌊 Maldivas</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/1287145/pexels-photo-1287145.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Maldivas - Bungalows">
+                    <div class="image-overlay">
+                        <p>Bungalows sobre el Agua</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/3601453/pexels-photo-3601453.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Maldivas - Snorkel">
+                    <div class="image-overlay">
+                        <p>Snorkel en Arrecifes</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Las Maldivas son el paraíso terrenal con aguas cristalinas, bungalows sobre el agua y arrecifes de coral impresionantes. Destino ideal para lunas de miel y relajación total.</p>
+        </div>
+
+        <div class="recommendation-card templo">
+            <h3>⛩️ Kioto, Japón</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/1822505/pexels-photo-1822505.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Kioto - Templo Fushimi">
+                    <div class="image-overlay">
+                        <p>Santuario Fushimi Inari</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/1829989/pexels-photo-1829989.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Kioto - Calles Tradicionales">
+                    <div class="image-overlay">
+                        <p>Calles Tradicionales</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Kioto es la ciudad cultural de Japón con más de 2,000 templos y santuarios. Destaca por sus geishas, jardines zen y el impresionante santuario Fushimi Inari con miles de puertas torii.</p>
+        </div>
+
+        <div class="recommendation-card pais">
+            <h3>🏔️ Machu Picchu, Perú</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/259967/pexels-photo-259967.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Machu Picchu - Vista Panorámica">
+                    <div class="image-overlay">
+                        <p>Vista Panorámica</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/1647116/pexels-photo-1647116.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Machu Picchu - Llama">
+                    <div class="image-overlay">
+                        <p>Llamas en Machu Picchu</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Machu Picchu es una de las nuevas maravillas del mundo. Esta antigua ciudad inca en los Andes peruanos ofrece vistas impresionantes y una rica historia arqueológica.</p>
+        </div>
+
+        <div class="recommendation-card pais">
+            <h3>🌌 Islandia</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/3727257/pexels-photo-3727257.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Islandia - Auroras Boreales">
+                    <div class="image-overlay">
+                        <p>Auroras Boreales</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/3621234/pexels-photo-3621234.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Islandia - Laguna Glaciar">
+                    <div class="image-overlay">
+                        <p>Laguna Glaciar</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">Islandia es el país del hielo y fuego. Ofrece auroras boreales, glaciares, volcanes, géiseres y cascadas impresionantes. Un destino único para los amantes de la naturaleza extrema.</p>
+        </div>
+
+        <div class="recommendation-card pais">
+            <h3>🗼 París, Francia</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/532826/pexels-photo-532826.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="París - Torre Eiffel">
+                    <div class="image-overlay">
+                        <p>Torre Eiffel</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/2363/pexels-photo-2363.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="París - Museo del Louvre">
+                    <div class="image-overlay">
+                        <p>Museo del Louvre</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">París, la Ciudad de la Luz, es famosa por su arte, moda, gastronomía y cultura. Visita la Torre Eiffel, el Museo del Louvre, Notre Dame y disfruta de sus cafés y boulevards.</p>
+        </div>
+
+        <div class="recommendation-card pais">
+            <h3>🌿 Costa Amalfitana, Italia</h3>
+            <div class="image-gallery">
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/3264728/pexels-photo-3264728.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Amalfi - Pueblo Costero">
+                    <div class="image-overlay">
+                        <p>Pueblo de Positano</p>
+                    </div>
+                </div>
+                <div class="image-container">
+                    <img src="https://images.pexels.com/photos/164879/pexels-photo-164879.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&fit=crop" alt="Amalfi - Acantilados">
+                    <div class="image-overlay">
+                        <p>Acantilados del Mediterráneo</p>
+                    </div>
+                </div>
+            </div>
+            <p class="recommendation-desc">La Costa Amalfitana es Patrimonio de la Humanidad con pueblos pintorescos en acantilados, coloridas casas colgantes y vistas impresionantes del Mar Mediterráneo.</p>
+        </div>
+        <p>&copy; 2025 Viajes Increíbles. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>
